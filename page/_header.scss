@@ -2,9 +2,16 @@
 @use 'responsive' as r;
 
 .main-header {
-    width: 90%;
+    width: 100%;
 
-//     .top-line {
+    .top-line {
+        display: grid;
+        grid-template-columns: 2fr 5fr ;
+        background-color: variables.$color-white;
+        box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .07);
+        padding: 10px;
+        padding-bottom: 40px;
+
 //     //    display: flex;
 //     //    flex-wrap: wrap;
 
@@ -15,11 +22,12 @@
 //         box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .07);
 
         .logo {
-            width: 30%;
-            height: 30%;
+            width: 90%;
+            height: 40%;
         }
         
-//         .list-in-row {
+        .list-in-row {
+                // row-gap: 10px;
 //             // text-align: center;
 //             text-decoration: none;
 //             color: variables.$color-white;
@@ -29,26 +37,36 @@
 //             // padding: 10px;
 //             // text-align: center; 
 
-//             .list-style {
+            button {
+                background-color: variables.$color-primary;
+                color: white;
+                // padding: 10px;
+                border-radius: 30px;
+                
+
 //                 background-color: blue;
 //                 color: white;
 //                 border-radius: 20px;
-//                 // padding-left: 10px;
-//                 // padding-right: 10px;
-//                 font-weight: normal;
-//                 display: flex;
-//                 justify-content: center;
+                // padding-left: 10px;
+                // padding-right: 10px;
+                font-weight: normal;
+                display: flex;
+                justify-content: center;
 //                 margin-left: 250px;
 //                 margin-right: 100px;
-//             }
-//             &> a {
+            }
+            &> a {
+
+                text-decoration: none;
+                color: variables.$color-black;
+                padding: 10px;
 //                 text-decoration: none;
 //                 color: black;
 //                 font-weight: bold;
 //                 font-size: medium;
 //                 row-gap: 30px;
 //                 padding: 10px;
-//             }
-//         }
-//     }
+            }
+        }
+    }
 }
