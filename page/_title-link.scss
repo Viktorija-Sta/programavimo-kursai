@@ -1,35 +1,35 @@
 @use 'variables';
-.container {
- margin-left: auto;
-    margin-right: auto;
-    .it-test {
-        display: flex;
-        flex-wrap: wrap;
-        background-color: variables.$color-white;
-        width: 80%;
-        font-size: 20px;
-        font-weight: bold;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 20px;
-        padding-top: 20px;
-        justify-content: space-between;
-        align-items: baseline;
+// .container {
+//  margin-left: auto;
+//     margin-right: auto;
+//     .it-test {
+//         display: flex;
+//         flex-wrap: wrap;
+//         background-color: variables.$color-white;
+//         width: 80%;
+//         font-size: 20px;
+//         font-weight: bold;
+//         margin-left: auto;
+//         margin-right: auto;
+//         padding-left: 20px;
+//         padding-top: 20px;
+//         justify-content: space-between;
+//         align-items: baseline;
 
-        a {
-            text-decoration: none;
-            color: variables.$color-button;
-        }
-        .it-test-1 {
-            color: variables.$color-black;
-        }
+//         a {
+//             text-decoration: none;
+//             color: variables.$color-button;
+//         }
+//         .it-test-1 {
+//             color: variables.$color-black;
+//         }
     
         .arrow {
             width: 50px;
             height: 50px;
         }
-    }
-    .test {
-        width: 90%;
-    }
-}
+//     }
+//     .test {
+//         width: 90%;
+//     }
+// }
