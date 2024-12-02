@@ -4,6 +4,7 @@
 @use 'page/main-title';
 @use 'page/title-link';
 @use 'page/programs';
+@use 'page/variables';
 
 
 *, *::before, *::after {
@@ -13,10 +14,10 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    background-color: #e9e9e9;
+    background-color: variables.$color-bg;
 }
 
 .font-size {
 // padding-left: 20px;
-// padding-top: 70px;
+padding-top: 70px;
 }
