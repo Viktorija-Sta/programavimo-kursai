@@ -1,0 +1,25 @@
+@use 'variables';
+
+.container {
+    background-color: variables.$color-bg;
+    margin-left: auto;
+    margin-right: auto;
+    .button {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: blue;
+        color: white;
+        border-radius: 20px;
+        text-transform: uppercase;
+        justify-content: center;
+        margin: 30px;
+
+        a {
+            text-decoration: none;
+            color: variables.$color-white;
+            position: sticky;
+            top: 20px;
+        }
+    }
+    
+}

@@ -1,0 +1,20 @@
+@use 'page/responsive';
+@use 'page/header';
+@use 'page/footer';
+@use 'page/main-title';
+@use 'page/title-link';
+@use 'page/programs';
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.font-size {
+padding-left: 20px;
+}
