@@ -34,6 +34,10 @@
                     border-bottom: 1px solid variables.$color-secondary;
                     width: 100%;
 
+                    li {
+                        list-style-type: none;
+                    }
+
                 a{
                     text-decoration: none;
                     color: variables.$color-secondary;
@@ -70,6 +74,10 @@
                     grid-template-columns: 1fr 1fr 1fr;
                     width:70%;
                     justify-items: end;
+
+                    li {
+                        list-style-type: none;
+                    }
 
                     img {
                         width: 30%;

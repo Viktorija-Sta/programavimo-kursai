@@ -1,20 +1,24 @@
 @use 'variables';
-.container {
- margin-left: auto;
+.container-xl {
+    margin-left: auto;
     margin-right: auto;
+    
     .it-test {
-        display: flex;
-        flex-wrap: wrap;
+        width: 100%;
         background-color: variables.$color-white;
-        width: 80%;
-        font-size: 20px;
-        font-weight: bold;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 20px;
-        padding-top: 20px;
-        justify-content: space-between;
-        align-items: baseline;
+        
+        
+//         display: flex;
+//         flex-wrap: wrap;
+//         width: 80%;
+//         font-size: 20px;
+//         font-weight: bold;
+//         margin-left: auto;
+//         margin-right: auto;
+//         padding-left: 20px;
+//         padding-top: 20px;
+//         justify-content: space-between;
+//         align-items: baseline;
 
         a {
             text-decoration: none;
@@ -22,14 +26,23 @@
         }
         .it-test-1 {
             color: variables.$color-black;
+            grid-column: 1 / 2;
+            grid-row: 2 / 3;
         }
-    
+
         .arrow {
             width: 50px;
             height: 50px;
+            margin-left: 50px;
+        }
+        .test {
+            width: 100%;
         }
     }
-    .test {
-        width: 90%;
+    .text {
+        background-color: variables.$color-white;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
     }
 }
