@@ -2,8 +2,6 @@
   width: 100%;
 }
 .main-header .top-line {
-  display: flex;
-  flex-wrap: wrap;
   background-color: white;
   box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.07);
 }
@@ -143,6 +141,7 @@
   margin-right: auto;
 }
 .container .button {
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
   background-color: blue;
@@ -150,13 +149,15 @@
   border-radius: 20px;
   text-transform: uppercase;
   justify-content: center;
-  margin: 30px;
+  position: fixed;
+  margin-left: 30px;
+  margin-right: 30px;
+  top: 140px;
+  z-index: 10;
 }
 .container .button a {
   text-decoration: none;
   color: white;
-  position: sticky;
-  top: 20px;
 }
 
 .container {
@@ -247,8 +248,4 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-}
-
-.font-size {
-  padding-left: 20px;
 }/*# sourceMappingURL=style.css.map */

@@ -1,11 +1,5 @@
-@media (min-width: 300px) {
-
-}
-
-@media (min-width: 500px) {
-
-}
-
-@media (min-width: 800px) {
-
+@mixin xl {
+    @media (max-width: 920px) {
+        @content;
+    }
 }
