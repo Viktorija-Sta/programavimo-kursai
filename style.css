@@ -12,6 +12,12 @@
   width: 90%;
   height: 40%;
 }
+@media (min-width: 545px) {
+  .main-header .top-line .logo {
+    height: 50%;
+    width: 90%;
+  }
+}
 .main-header .top-line .list-in-row button {
   background-color: #1200ff;
   color: white;
@@ -136,23 +142,27 @@
   background-color: #f2f2f2;
   width: 90%;
 }
-.container-xl .button {
-  width: 0%;
+.container-xl .button .btn {
   display: block;
   border-radius: 20px;
   text-align: center;
   text-transform: uppercase;
   justify-content: center;
   align-items: center;
-  z-index: 10;
-}
-.container-xl .button a {
-  width: 90%;
-  text-decoration: none;
   color: white;
   background-color: #1200ff;
-  border-radius: 30px;
   position: fixed;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding-left: 110px;
+  padding-right: 110px;
+  grid-column: 1/2;
+}
+.container-xl .button .btn a {
+  text-decoration: none;
+  border-radius: 30px;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -227,7 +237,6 @@
 }
 .programs .programs-bottom {
   text-transform: uppercase;
-  justify-content: space-between;
   font-weight: bold;
   padding: 10px;
 }

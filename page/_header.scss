@@ -24,6 +24,10 @@
         .logo {
             width: 90%;
             height: 40%;
+            @include r.lg {
+               height: 50%;
+               width: 90%; 
+            }
         }
         
         .list-in-row {
