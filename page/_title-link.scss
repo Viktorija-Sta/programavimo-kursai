@@ -1,12 +1,15 @@
 @use 'variables';
 .container-xl {
-
-//  margin-left: auto;
-//     margin-right: auto;
-//     .it-test {
+    margin-left: auto;
+    margin-right: auto;
+    
+    .it-test {
+        width: 100%;
+        background-color: variables.$color-white;
+        
+        
 //         display: flex;
 //         flex-wrap: wrap;
-//         background-color: variables.$color-white;
 //         width: 80%;
 //         font-size: 20px;
 //         font-weight: bold;
@@ -17,20 +20,29 @@
 //         justify-content: space-between;
 //         align-items: baseline;
 
-//         a {
-//             text-decoration: none;
-//             color: variables.$color-button;
-//         }
-//         .it-test-1 {
-//             color: variables.$color-black;
-//         }
-    
+        a {
+            text-decoration: none;
+            color: variables.$color-button;
+        }
+        .it-test-1 {
+            color: variables.$color-black;
+            grid-column: 1 / 2;
+            grid-row: 2 / 3;
+        }
+
         .arrow {
             width: 50px;
             height: 50px;
+            margin-left: 50px;
         }
-//     }
-    .test {
-        width: 90%;
+        .test {
+            width: 100%;
+        }
+    }
+    .text {
+        background-color: variables.$color-white;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
     }
 }

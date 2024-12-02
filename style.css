@@ -146,17 +146,40 @@
   color: white;
   background-color: #1200ff;
   border-radius: 30px;
-  position: fixed;
   padding-left: 50px;
   padding-right: 50px;
 }
 
-.container-xl .arrow {
+.container-xl {
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-xl .it-test {
+  width: 100%;
+  background-color: white;
+}
+.container-xl .it-test a {
+  text-decoration: none;
+  color: #ff00e9;
+}
+.container-xl .it-test .it-test-1 {
+  color: black;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.container-xl .it-test .arrow {
   width: 50px;
   height: 50px;
+  margin-left: 50px;
 }
-.container-xl .test {
-  width: 90%;
+.container-xl .it-test .test {
+  width: 100%;
+}
+.container-xl .text {
+  background-color: white;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
 
 .programs img {
@@ -175,4 +198,5 @@ body {
 
 .font-size {
   padding-top: 70px;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
